@@ -1,0 +1,1 @@
+FROM vlaaaaaaad/gitpod-terraform:latest
