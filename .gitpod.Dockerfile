@@ -8,5 +8,5 @@ RUN brew update && brew install \
     && brew cleanup
 RUN tfenv install latest && tfenv use latest
 
-USER gitpod
+# USER gitpod
 #.gitpod.bashrc /home/gitpod/.bashrc.d/custom
