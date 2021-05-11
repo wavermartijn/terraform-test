@@ -1,0 +1,16 @@
+{
+    "terraform-ls.experimentalFeatures": {
+        "validateOnSave": false
+
+    
+    },
+    "terraform.languageServer": {
+        "external": true,
+        "pathToBinary": "/home/linuxbrew/.linuxbrew/bin/terraform-ls",
+        "args": [
+            "serve"
+        ],
+        "maxNumberOfProblems": 100,
+        "trace.server": "off"
+    }
+}
